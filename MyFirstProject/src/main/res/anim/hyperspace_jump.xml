@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<set xmlns:android="http://schemas.android.com/apk/res/android" android:shareInterpolator="false">
+    <scale
+        android:interpolator="@android:anim/accelerate_decelerate_interpolator"
+        android:fromXScale="1.0"
+        android:toXScale="3.0"
+        android:fromYScale="1.0"
+        android:toYScale="3.6"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:fillAfter="false"
+        android:duration="700" />
+    <translate
+        android:toXDelta="200"
+        android:fromXDelta="0"
+        android:fromYDelta="0"
+        android:toYDelta="200"
+        android:duration="1000" />
+
+    <set android:interpolator="@android:anim/decelerate_interpolator">
+        <scale
+            android:fromXScale="1.4"
+            android:toXScale="0.0"
+            android:fromYScale="0.6"
+            android:toYScale="0.0"
+            android:pivotX="50%"
+            android:pivotY="50%"
+            android:startOffset="700"
+            android:duration="1000"
+            android:fillBefore="false" />
+        <translate
+            android:fromXDelta="200"
+            android:fromYDelta="200"
+            android:toXDelta="300"
+            android:toYDelta="250"
+            android:duration="600" />
+        <rotate
+            android:fromDegrees="0"
+            android:toDegrees="-45"
+            android:toYScale="0.0"
+            android:pivotX="50%"
+            android:pivotY="50%"
+            android:startOffset="700"
+            android:duration="400" />
+    </set>
+        <rotate
+            android:fromDegrees="0"
+            android:toDegrees="0"
+            android:toYScale="0.0"
+            android:pivotX="50%"
+            android:pivotY="50%"
+            android:startOffset="700"
+            android:duration="400" />
+        <translate
+            android:fromXDelta="300"
+            android:fromYDelta="250"
+            android:toXDelta="100"
+            android:toYDelta="400"
+            android:duration="1500" />
+
+</set>

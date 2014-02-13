@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App/Activity Titles -->
+    <string name="app_name">My First Project</string>
+    <string name="title_activity_display_message">My Message</string>
+    <string name="hello_world">Press button to start/stop music</string>
+    <string name="action_settings" translatable="false">Settings</string>
+    <string name="caption" translatable="false">This is a caption about this app.  You will find it fun and useful.</string>
+    <string name="innerTextLarge" translatable="false">Cool!</string>
+    <string name="scrollText1">The Space Needle, dating from the 1962 Century 21 Exposition, is Seattle\'s most recognizable landmark. It has been featured in the logo of the former Seattle SuperSonics NBA team, the Seattle Sounders MLS team, the television show Frasier and the backgrounds of the television series Dark Angel, The TV series 4400 Grey\'s Anatomy, The Killing and iCarly, and films such as It Happened at the World\'s Fair, Sleepless in Seattle, The Twilight Saga: Eclipse, Love Happens and The Parallax View.</string>
+    <string name="launchSiteText" translatable="false">Select a button to launch site</string>
+
+    <!-- Images -->
+    <string name="seattle_img_resource" translatable="false">Photo of Seattle and family</string>
+    <string name="img_spaceShip" translatable="false">Image of a space ship flying around the screen.</string>
+
+    <!-- Edit Text Fields -->
+    <string name="editPinkText">Enter text to send</string>
+
+    <!-- Buttons -->
+    <string name="startStopMusicBtn" translatable="false">Start/Stop</string>
+    <string name="launchKirkWebsiteBtn" translatable="false">kirkkohler.com</string>
+    <string name="launchToastBtn" translatable="false">Launch Toast</string>
+    <string name="editTextBtn">Send Message</string>
+    <string name="label_embeddedWebsiteBtn">Launch Embedded Website</string>
+    <string name="title_activity_web_view">WebView</string>
+
+</resources>
